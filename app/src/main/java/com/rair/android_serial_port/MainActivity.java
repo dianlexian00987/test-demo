@@ -25,10 +25,12 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onDataReceiver(byte[] buffer, int size) {
                     Log.i("Rair", ByteUtil.hexBytesToString(buffer));
+                    Log.i("Rair", ByteUtil.hexBytesToString(buffer));
                 }
             });
             machineControl.sendCMD(new byte[0x00]);
         } else {
+            Log.i("Rair", "打开串口失败");
             Log.i("Rair", "打开串口失败");
             Log.i("Rair", "打开串口失败");
             Log.i("Rair", "打开串口失败");
