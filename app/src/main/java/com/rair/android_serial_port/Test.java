@@ -16,6 +16,7 @@ import android_serialport_api.SerialPortManager;
 public class Test {
 
     public static void main(String... args) {
+        System.console();
 
     }
 }

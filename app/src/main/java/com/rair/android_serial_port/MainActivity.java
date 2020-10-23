@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
             machineControl.sendCMD(new byte[0x00]);
         } else {
             Log.i("Rair", "打开串口失败");
+            Log.i("Rair", "打开串口失败");
+            Log.i("Rair", "打开串口失败");
         }
     }
 }
