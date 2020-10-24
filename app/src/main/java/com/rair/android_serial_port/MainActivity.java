@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                     Log.i("Rair", ByteUtil.hexBytesToString(buffer));
                     Log.i("Rair", ByteUtil.hexBytesToString(buffer));
                     Log.i("Rair", ByteUtil.hexBytesToString(buffer));
+                    Log.i("Rair", ByteUtil.hexBytesToString(buffer));
 
 
                 }
